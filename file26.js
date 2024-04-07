@@ -34,7 +34,7 @@ const users=[
     {firstname:"nitish",age:53},
     {firstname:"garint",age:50}
 ]
-
+//we are using anonymus function  
 users.forEach(function(user){
 console.log(user.firstname)
 })

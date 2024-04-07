@@ -1,4 +1,4 @@
-//difference between dot bracker notations
+//difference between dot & bracket notations
 const key ="email";
 
 const person = {
@@ -29,5 +29,12 @@ for(let key in person1){
     console.log(person[key])  
 }
 //object.keys
-console.log(Object.keys(person1))
+console.log(Object.keys(person1))   //name age person hobbies
 
+// Array objects
+const arr = ["A", "B", "C"];
+console.log(Object.keys(arr)); // ['0', '1', '2']
+
+// array-like objects
+const obj = { 65: "A", 66: "B", 67: "C" };
+console.log(Object.keys(obj)); // ['65', '66', '67']
