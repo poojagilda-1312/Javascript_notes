@@ -1,0 +1,6 @@
+//sets (it is iterable )
+//store data 
+//sets also have its own methods 
+//no index -based access 
+//order is not guarented 
+//unique items only (no duplicates allowed)
